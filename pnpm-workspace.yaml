@@ -1,0 +1,10 @@
+# pnpm-workspace.yaml
+# Defines the paths where pnpm will look for packages within the monorepo.
+# This enables pnpm to link local packages and manage dependencies efficiently.
+packages:
+  # Include all applications
+  - 'apps/*'
+  # Include all services
+  - 'services/*'
+  # Include all shared packages
+  - 'packages/*'
