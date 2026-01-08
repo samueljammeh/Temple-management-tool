@@ -1,0 +1,35 @@
+{
+  "$schema": "https://turbo.build/schema.json",
+  "globalDependencies": [
+    "tsconfig.base.json"
+  ],
+  "pipeline": {
+    "build": {
+      "doc": "Builds all packages and applications.",
+      "dependsOn": [
+        "^build"
+      ],
+      "outputs": [
+        "dist/**",
+        ".next/**"
+      ]
+    },
+    "test": {
+      "doc": "Runs tests for all packages and applications.",
+      "dependsOn": [
+        "build"
+      ],
+      "outputs": [
+        "coverage/**"
+      ]
+    },
+    "lint": {
+      "doc": "Lints all packages and applications.",
+      "outputs": []
+    },
+    "dev": {
+      "doc": "Starts development servers.",
+      "cache": false
+    }
+  }
+}
