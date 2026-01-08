@@ -1,0 +1,24 @@
+{
+  "name": "@orbyt/studio-web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3000",
+    "build": "next build",
+    "start": "next start -p 3000",
+    "test": "vitest run",
+    "lint": "echo 'lint skipped'"
+  },
+  "dependencies": {
+    "@dnd-kit/core": "^6.1.0",
+    "@orbyt/template-schema": "0.1.0",
+    "@orbyt/xml-tools": "0.1.0",
+    "next": "14.2.3",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5",
+    "vitest": "^1.6.0"
+  }
+}

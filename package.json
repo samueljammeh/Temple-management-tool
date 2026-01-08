@@ -1,0 +1,15 @@
+{
+  "name": "orbyt-template-studio",
+  "private": true,
+  "workspaces": [
+    "apps/studio-web",
+    "services/template-api",
+    "packages/template-schema",
+    "packages/xml-tools",
+    "packages/fo-compiler"
+  ],
+  "scripts": {
+    "test": "npm run test -ws",
+    "lint": "npm run lint -ws"
+  }
+}
