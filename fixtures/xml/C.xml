@@ -1,0 +1,15 @@
+<Case>
+  <Account>
+    <Name>Orbyt C</Name>
+    <Number>67890</Number>
+  </Account>
+  <Debts>
+    <Debt>
+      <Type>Utilities</Type>
+      <Amount>300</Amount>
+    </Debt>
+  </Debts>
+  <Totals>
+    <Balance>300</Balance>
+  </Totals>
+</Case>
