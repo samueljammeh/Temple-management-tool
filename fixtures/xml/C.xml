@@ -1,0 +1,12 @@
+<Case>
+  <Account>
+    <Name>Charlie Delta</Name>
+    <AccountNumber>ACC-2002</AccountNumber>
+  </Account>
+  <Debts>
+    <Debt>
+      <Type>Invoice</Type>
+      <Amount>850.00</Amount>
+    </Debt>
+  </Debts>
+</Case>

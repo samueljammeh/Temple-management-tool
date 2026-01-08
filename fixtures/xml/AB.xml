@@ -1,0 +1,12 @@
+<Case>
+  <Account>
+    <Name>Alice Brown</Name>
+    <AccountNumber>ACC-1001</AccountNumber>
+  </Account>
+  <Debts>
+    <Debt>
+      <Type>Loan</Type>
+      <Amount>120.50</Amount>
+    </Debt>
+  </Debts>
+</Case>
